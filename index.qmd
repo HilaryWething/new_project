@@ -6,9 +6,17 @@ County-level relationships between student enrollment, share in poverty, and sch
 
 ## Distributions
 
+::: {.panel-tabset}
+
+### Student Enrollment
+
 ![Distribution of student enrollment in counties.](enrollment_histogram.png)
 
+### Medicaid Spending
+
 ![Distribution of county-level Medicaid spending.](medicaid_spending_histogram.png)
+
+:::
 
 ## Medicaid
 
@@ -43,3 +51,5 @@ County-level relationships between student enrollment, share in poverty, and sch
 ### Share of Tradable Income
 
 ![Student enrollment vs. SNAP as a share of tradable income.](enrollment_vs_snap_pct_tra.png)
+
+:::

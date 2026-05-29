@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Medicaid Enrollment &amp; County School Finance</title>
+<title>County-level education characteristics &amp; Public Assistance Program Support – Medicaid Enrollment &amp; County School Finance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Medicaid Enrollment &amp; County School Finance</h1>
+<h1 class="title">County-level education characteristics &amp; Public Assistance Program Support</h1>
 </div>
 
 
@@ -99,28 +99,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022), District Cost Database v6.0 (2023).</p>
+<p>County-level relationships between student enrollment, share in poverty, and school funding gaps with federal safety net programs (dollars, and as a share of a county’s tradable income). Data: NCES School District Finance Survey (2023), Manduca 2025, BEA Personal Income by County (2022), District Cost Database v6.0 (2023).</p>
 <section id="distributions" class="level2">
 <h2 class="anchored" data-anchor-id="distributions">Distributions</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Student Enrollment</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Medicaid Spending</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_histogram.png" class="img-fluid figure-img"></p>
 <figcaption>Distribution of student enrollment in counties.</figcaption>
 </figure>
 </div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_spending_histogram.png" class="img-fluid figure-img"></p>
 <figcaption>Distribution of county-level Medicaid spending.</figcaption>
 </figure>
 </div>
+</div>
+</div>
+</div>
 </section>
 <section id="medicaid" class="level2">
 <h2 class="anchored" data-anchor-id="medicaid">Medicaid</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Dollars</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Share of Tradable Income</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Dollars</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Share of Tradable Income</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_pub_asst_med_val.png" class="img-fluid figure-img"></p>
@@ -130,17 +139,17 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_val_vs_pov.png" class="img-fluid figure-img"></p>
-<figcaption>County poverty rate vs.&nbsp;Medicaid dollars.</figcaption>
+<figcaption>County student poverty rate vs.&nbsp;Medicaid dollars.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_val_vs_fundinggap.png" class="img-fluid figure-img"></p>
-<figcaption>School funding gap vs.&nbsp;Medicaid dollars.</figcaption>
+<figcaption>Average school funding gap vs.&nbsp;Medicaid dollars.</figcaption>
 </figure>
 </div>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_medicaid_pct_tra.png" class="img-fluid figure-img"></p>
@@ -150,13 +159,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_pct_vs_pov.png" class="img-fluid figure-img"></p>
-<figcaption>County poverty rate vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
+<figcaption>County student poverty rate vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_pct_vs_fundinggap.png" class="img-fluid figure-img"></p>
-<figcaption>School funding gap vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
+<figcaption>Average school funding gap vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
 </figure>
 </div>
 </div>
@@ -165,17 +174,26 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="snap" class="level2">
 <h2 class="anchored" data-anchor-id="snap">SNAP</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Dollars</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Share of Tradable Income</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_snap_val.png" class="img-fluid figure-img"></p>
 <figcaption>Student enrollment vs.&nbsp;SNAP dollars.</figcaption>
 </figure>
 </div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_snap_pct_tra.png" class="img-fluid figure-img"></p>
 <figcaption>Student enrollment vs.&nbsp;SNAP as a share of tradable income.</figcaption>
 </figure>
+</div>
+</div>
+</div>
 </div>
 
 
