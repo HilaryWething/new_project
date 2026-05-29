@@ -2,29 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Medicaid Enrollment & County School Finance",
+    "title": "County-level education characteristics & Public Assistance Program Support",
     "section": "",
-    "text": "County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022), District Cost Database v6.0 (2023)."
+    "text": "County-level relationships between student enrollment, share in poverty, and school funding gaps with federal safety net programs (dollars, and as a share of a county’s tradable income). Data: NCES School District Finance Survey (2023), Manduca 2025, BEA Personal Income by County (2022), District Cost Database v6.0 (2023)."
   },
   {
     "objectID": "index.html#distributions",
     "href": "index.html#distributions",
-    "title": "Medicaid Enrollment & County School Finance",
+    "title": "County-level education characteristics & Public Assistance Program Support",
     "section": "Distributions",
-    "text": "Distributions\n\n\n\nDistribution of student enrollment in counties.\n\n\n\n\n\nDistribution of county-level Medicaid spending."
+    "text": "Distributions\n\nStudent EnrollmentMedicaid Spending\n\n\n\n\n\nDistribution of student enrollment in counties.\n\n\n\n\n\n\n\nDistribution of county-level Medicaid spending."
   },
   {
     "objectID": "index.html#medicaid",
     "href": "index.html#medicaid",
-    "title": "Medicaid Enrollment & County School Finance",
+    "title": "County-level education characteristics & Public Assistance Program Support",
     "section": "Medicaid",
-    "text": "Medicaid\n\nDollarsShare of Tradable Income\n\n\n\n\n\nStudent enrollment vs. Medicaid dollars.\n\n\n\n\n\nCounty poverty rate vs. Medicaid dollars.\n\n\n\n\n\nSchool funding gap vs. Medicaid dollars.\n\n\n\n\n\n\n\nStudent enrollment vs. Medicaid as a share of tradable income.\n\n\n\n\n\nCounty poverty rate vs. Medicaid as a share of tradable income.\n\n\n\n\n\nSchool funding gap vs. Medicaid as a share of tradable income."
+    "text": "Medicaid\n\nDollarsShare of Tradable Income\n\n\n\n\n\nStudent enrollment vs. Medicaid dollars.\n\n\n\n\n\nCounty student poverty rate vs. Medicaid dollars.\n\n\n\n\n\nAverage school funding gap vs. Medicaid dollars.\n\n\n\n\n\n\n\nStudent enrollment vs. Medicaid as a share of tradable income.\n\n\n\n\n\nCounty student poverty rate vs. Medicaid as a share of tradable income.\n\n\n\n\n\nAverage school funding gap vs. Medicaid as a share of tradable income."
   },
   {
     "objectID": "index.html#snap",
     "href": "index.html#snap",
-    "title": "Medicaid Enrollment & County School Finance",
+    "title": "County-level education characteristics & Public Assistance Program Support",
     "section": "SNAP",
-    "text": "SNAP\n\n\n\nStudent enrollment vs. SNAP dollars.\n\n\n\n\n\nStudent enrollment vs. SNAP as a share of tradable income."
+    "text": "SNAP\n\nDollarsShare of Tradable Income\n\n\n\n\n\nStudent enrollment vs. SNAP dollars.\n\n\n\n\n\n\n\nStudent enrollment vs. SNAP as a share of tradable income."
   }
 ]
