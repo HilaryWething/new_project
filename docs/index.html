@@ -99,43 +99,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022).</p>
-<section id="enrollment" class="level2">
-<h2 class="anchored" data-anchor-id="enrollment">Enrollment</h2>
+<p>County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022), District Cost Database v6.0 (2023).</p>
+<section id="distributions" class="level2">
+<h2 class="anchored" data-anchor-id="distributions">Distributions</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_histogram.png" class="img-fluid figure-img"></p>
-<figcaption>Distribution of county-level school enrollment.</figcaption>
+<figcaption>Distribution of student enrollment in counties.</figcaption>
 </figure>
 </div>
-</section>
-<section id="medicaid-spending" class="level2">
-<h2 class="anchored" data-anchor-id="medicaid-spending">Medicaid Spending</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="medicaid_spending_histogram.png" class="img-fluid figure-img"></p>
-<figcaption>Distribution of county-level Medicaid spending (log scale).</figcaption>
+<figcaption>Distribution of county-level Medicaid spending.</figcaption>
 </figure>
 </div>
 </section>
-<section id="enrollment-vs.-safety-net-benefits" class="level2">
-<h2 class="anchored" data-anchor-id="enrollment-vs.-safety-net-benefits">Enrollment vs.&nbsp;Safety Net Benefits</h2>
+<section id="medicaid" class="level2">
+<h2 class="anchored" data-anchor-id="medicaid">Medicaid</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Dollars</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Share of Tradable Income</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_pub_asst_med_val.png" class="img-fluid figure-img"></p>
-<figcaption>County enrollment vs.&nbsp;Medicaid dollars (log scales).</figcaption>
+<figcaption>Student enrollment vs.&nbsp;Medicaid dollars.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="enrollment_vs_snap_val.png" class="img-fluid figure-img"></p>
-<figcaption>County enrollment vs.&nbsp;SNAP benefit dollars (log scales).</figcaption>
+<p><img src="medicaid_val_vs_pov.png" class="img-fluid figure-img"></p>
+<figcaption>County poverty rate vs.&nbsp;Medicaid dollars.</figcaption>
 </figure>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="medicaid_val_vs_fundinggap.png" class="img-fluid figure-img"></p>
+<figcaption>School funding gap vs.&nbsp;Medicaid dollars.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="enrollment_vs_medicaid_pct_tra.png" class="img-fluid figure-img"></p>
 <figcaption>Student enrollment vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="medicaid_pct_vs_pov.png" class="img-fluid figure-img"></p>
+<figcaption>County poverty rate vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="medicaid_pct_vs_fundinggap.png" class="img-fluid figure-img"></p>
+<figcaption>School funding gap vs.&nbsp;Medicaid as a share of tradable income.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="snap" class="level2">
+<h2 class="anchored" data-anchor-id="snap">SNAP</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="enrollment_vs_snap_val.png" class="img-fluid figure-img"></p>
+<figcaption>Student enrollment vs.&nbsp;SNAP dollars.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">

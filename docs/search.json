@@ -4,27 +4,27 @@
     "href": "index.html",
     "title": "Medicaid Enrollment & County School Finance",
     "section": "",
-    "text": "County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022)."
+    "text": "County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022), District Cost Database v6.0 (2023)."
   },
   {
-    "objectID": "index.html#enrollment",
-    "href": "index.html#enrollment",
+    "objectID": "index.html#distributions",
+    "href": "index.html#distributions",
     "title": "Medicaid Enrollment & County School Finance",
-    "section": "Enrollment",
-    "text": "Enrollment\n\n\n\nDistribution of county-level school enrollment."
+    "section": "Distributions",
+    "text": "Distributions\n\n\n\nDistribution of student enrollment in counties.\n\n\n\n\n\nDistribution of county-level Medicaid spending."
   },
   {
-    "objectID": "index.html#medicaid-spending",
-    "href": "index.html#medicaid-spending",
+    "objectID": "index.html#medicaid",
+    "href": "index.html#medicaid",
     "title": "Medicaid Enrollment & County School Finance",
-    "section": "Medicaid Spending",
-    "text": "Medicaid Spending\n\n\n\nDistribution of county-level Medicaid spending (log scale)."
+    "section": "Medicaid",
+    "text": "Medicaid\n\nDollarsShare of Tradable Income\n\n\n\n\n\nStudent enrollment vs. Medicaid dollars.\n\n\n\n\n\nCounty poverty rate vs. Medicaid dollars.\n\n\n\n\n\nSchool funding gap vs. Medicaid dollars.\n\n\n\n\n\n\n\nStudent enrollment vs. Medicaid as a share of tradable income.\n\n\n\n\n\nCounty poverty rate vs. Medicaid as a share of tradable income.\n\n\n\n\n\nSchool funding gap vs. Medicaid as a share of tradable income."
   },
   {
-    "objectID": "index.html#enrollment-vs.-safety-net-benefits",
-    "href": "index.html#enrollment-vs.-safety-net-benefits",
+    "objectID": "index.html#snap",
+    "href": "index.html#snap",
     "title": "Medicaid Enrollment & County School Finance",
-    "section": "Enrollment vs. Safety Net Benefits",
-    "text": "Enrollment vs. Safety Net Benefits\n\n\n\nCounty enrollment vs. Medicaid dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. SNAP benefit dollars (log scales).\n\n\n\n\n\nStudent enrollment vs. Medicaid as a share of tradable income.\n\n\n\n\n\nStudent enrollment vs. SNAP as a share of tradable income."
+    "section": "SNAP",
+    "text": "SNAP\n\n\n\nStudent enrollment vs. SNAP dollars.\n\n\n\n\n\nStudent enrollment vs. SNAP as a share of tradable income."
   }
 ]
