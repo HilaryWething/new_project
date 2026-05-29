@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Medicaid Enrollment & County School Finance",
+    "section": "",
+    "text": "County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022)."
+  },
+  {
+    "objectID": "index.html#enrollment",
+    "href": "index.html#enrollment",
+    "title": "Medicaid Enrollment & County School Finance",
+    "section": "Enrollment",
+    "text": "Enrollment\n\n\n\nDistribution of county-level school enrollment."
+  },
+  {
+    "objectID": "index.html#enrollment-vs.-safety-net-benefits",
+    "href": "index.html#enrollment-vs.-safety-net-benefits",
+    "title": "Medicaid Enrollment & County School Finance",
+    "section": "Enrollment vs. Safety Net Benefits",
+    "text": "Enrollment vs. Safety Net Benefits\n\n\n\nCounty enrollment vs. public assistance medical benefit dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. SNAP benefit dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. public assistance medical benefits (alternate specification).\n\n\n\n\n\nCounty enrollment vs. SNAP benefits (alternate specification)."
+  },
+  {
+    "objectID": "index.html#revenue-vs.-safety-net-benefits",
+    "href": "index.html#revenue-vs.-safety-net-benefits",
+    "title": "Medicaid Enrollment & County School Finance",
+    "section": "Revenue vs. Safety Net Benefits",
+    "text": "Revenue vs. Safety Net Benefits\n\n\n\nCounty school revenue by source vs. public assistance medical benefit dollars (log scales).\n\n\n\n\n\nCounty school revenue by source vs. SNAP benefit dollars (log scales)."
+  }
+]

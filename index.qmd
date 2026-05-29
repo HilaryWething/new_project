@@ -1,0 +1,25 @@
+---
+title: "Medicaid Enrollment & County School Finance"
+---
+
+County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022).
+
+## Enrollment
+
+![Distribution of county-level school enrollment.](enrollment_histogram.png)
+
+## Enrollment vs. Safety Net Benefits
+
+![County enrollment vs. public assistance medical benefit dollars (log scales).](enrollment_vs_pub_asst_med_val.png)
+
+![County enrollment vs. SNAP benefit dollars (log scales).](enrollment_vs_snap_val.png)
+
+![County enrollment vs. public assistance medical benefits (alternate specification).](enrollment_vs_pub_asst_med.png)
+
+![County enrollment vs. SNAP benefits (alternate specification).](enrollment_vs_snap.png)
+
+## Revenue vs. Safety Net Benefits
+
+![County school revenue by source vs. public assistance medical benefit dollars (log scales).](revenue_vs_pub_asst_med_val.png)
+
+![County school revenue by source vs. SNAP benefit dollars (log scales).](revenue_vs_snap_val.png)

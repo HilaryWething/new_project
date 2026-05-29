@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Medicaid Enrollment & County School Finance"
+
+format:
+  html:
+    theme: cosmo
+    toc: false
