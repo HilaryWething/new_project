@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Finance &amp; Safety Net Analysis</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      background: #fafafa;
+      color: #222;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      color: #555;
+      margin-bottom: 2.5rem;
+      font-size: 0.95rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section h2 {
+      font-size: 1.1rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .figure {
+      margin-bottom: 2rem;
+    }
+    .figure img {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #fff;
+    }
+    .caption {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>School Finance &amp; Safety Net Analysis</h1>
+  <p class="subtitle">County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022).</p>
+
+  <div class="section">
+    <h2>Enrollment</h2>
+    <div class="figure">
+      <img src="enrollment_histogram.png" alt="Enrollment histogram">
+      <p class="caption">Distribution of county-level school enrollment.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Enrollment vs. Safety Net Benefits</h2>
+    <div class="figure">
+      <img src="enrollment_vs_pub_asst_med_val.png" alt="Enrollment vs. public assistance medical benefits">
+      <p class="caption">County enrollment vs. public assistance medical benefit dollars (log scales).</p>
+    </div>
+    <div class="figure">
+      <img src="enrollment_vs_snap_val.png" alt="Enrollment vs. SNAP benefits">
+      <p class="caption">County enrollment vs. SNAP benefit dollars (log scales).</p>
+    </div>
+    <div class="figure">
+      <img src="enrollment_vs_pub_asst_med.png" alt="Enrollment vs. public assistance medical (alternate)">
+      <p class="caption">County enrollment vs. public assistance medical benefits (alternate specification).</p>
+    </div>
+    <div class="figure">
+      <img src="enrollment_vs_snap.png" alt="Enrollment vs. SNAP (alternate)">
+      <p class="caption">County enrollment vs. SNAP benefits (alternate specification).</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Revenue vs. Safety Net Benefits</h2>
+    <div class="figure">
+      <img src="revenue_vs_pub_asst_med_val.png" alt="Revenue vs. public assistance medical benefits">
+      <p class="caption">County school revenue (by source) vs. public assistance medical benefit dollars. Each panel shows a different revenue stream (log scales).</p>
+    </div>
+    <div class="figure">
+      <img src="revenue_vs_snap_val.png" alt="Revenue vs. SNAP benefits">
+      <p class="caption">County school revenue (by source) vs. SNAP benefit dollars. Each panel shows a different revenue stream (log scales).</p>
+    </div>
+  </div>
+
+</body>
+</html>
