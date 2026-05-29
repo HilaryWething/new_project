@@ -1,8 +1,8 @@
 ---
-title: "Medicaid Enrollment & County School Finance"
+title: "County-level education characteristics & Public Assistance Program Support"
 ---
 
-County-level relationships between school district finances and federal safety net program dollars. Data: NCES School District Finance Survey (2023), BEA Personal Income by County (2022), District Cost Database v6.0 (2023).
+County-level relationships between student enrollment, share in poverty, and school funding gaps with federal safety net programs (dollars, and as a share of a county's tradable income). Data: NCES School District Finance Survey (2023), Manduca 2025, BEA Personal Income by County (2022), District Cost Database v6.0 (2023).
 
 ## Distributions
 
@@ -34,6 +34,12 @@ County-level relationships between school district finances and federal safety n
 
 ## SNAP
 
+::: {.panel-tabset}
+
+### Dollars
+
 ![Student enrollment vs. SNAP dollars.](enrollment_vs_snap_val.png)
+
+### Share of Tradable Income
 
 ![Student enrollment vs. SNAP as a share of tradable income.](enrollment_vs_snap_pct_tra.png)
