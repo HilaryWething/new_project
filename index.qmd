@@ -18,17 +18,17 @@ County-level relationships between student enrollment, share in poverty, and sch
 
 ![Student enrollment vs. Medicaid dollars.](enrollment_vs_pub_asst_med_val.png)
 
-![County poverty rate vs. Medicaid dollars.](medicaid_val_vs_pov.png)
+![County student poverty rate vs. Medicaid dollars.](medicaid_val_vs_pov.png)
 
-![School funding gap vs. Medicaid dollars.](medicaid_val_vs_fundinggap.png)
+![Average school funding gap vs. Medicaid dollars.](medicaid_val_vs_fundinggap.png)
 
 ### Share of Tradable Income
 
 ![Student enrollment vs. Medicaid as a share of tradable income.](enrollment_vs_medicaid_pct_tra.png)
 
-![County poverty rate vs. Medicaid as a share of tradable income.](medicaid_pct_vs_pov.png)
+![County student poverty rate vs. Medicaid as a share of tradable income.](medicaid_pct_vs_pov.png)
 
-![School funding gap vs. Medicaid as a share of tradable income.](medicaid_pct_vs_fundinggap.png)
+![Average school funding gap vs. Medicaid as a share of tradable income.](medicaid_pct_vs_fundinggap.png)
 
 :::
 
