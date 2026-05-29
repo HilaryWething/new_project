@@ -8,18 +8,16 @@ County-level relationships between school district finances and federal safety n
 
 ![Distribution of county-level school enrollment.](enrollment_histogram.png)
 
+## Medicaid Spending
+
+![Distribution of county-level Medicaid spending (log scale).](medicaid_spending_histogram.png)
+
 ## Enrollment vs. Safety Net Benefits
 
 ![County enrollment vs. public assistance medical benefit dollars (log scales).](enrollment_vs_pub_asst_med_val.png)
 
 ![County enrollment vs. SNAP benefit dollars (log scales).](enrollment_vs_snap_val.png)
 
-![County enrollment vs. public assistance medical benefits (alternate specification).](enrollment_vs_pub_asst_med.png)
+![Student enrollment vs. Medicaid as a share of tradable income.](enrollment_vs_medicaid_pct_tra.png)
 
-![County enrollment vs. SNAP benefits (alternate specification).](enrollment_vs_snap.png)
-
-## Revenue vs. Safety Net Benefits
-
-![County school revenue by source vs. public assistance medical benefit dollars (log scales).](revenue_vs_pub_asst_med_val.png)
-
-![County school revenue by source vs. SNAP benefit dollars (log scales).](revenue_vs_snap_val.png)
+![Student enrollment vs. SNAP as a share of tradable income.](enrollment_vs_snap_pct_tra.png)

@@ -14,17 +14,17 @@
     "text": "Enrollment\n\n\n\nDistribution of county-level school enrollment."
   },
   {
+    "objectID": "index.html#medicaid-spending",
+    "href": "index.html#medicaid-spending",
+    "title": "Medicaid Enrollment & County School Finance",
+    "section": "Medicaid Spending",
+    "text": "Medicaid Spending\n\n\n\nDistribution of county-level Medicaid spending (log scale)."
+  },
+  {
     "objectID": "index.html#enrollment-vs.-safety-net-benefits",
     "href": "index.html#enrollment-vs.-safety-net-benefits",
     "title": "Medicaid Enrollment & County School Finance",
     "section": "Enrollment vs. Safety Net Benefits",
-    "text": "Enrollment vs. Safety Net Benefits\n\n\n\nCounty enrollment vs. public assistance medical benefit dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. SNAP benefit dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. public assistance medical benefits (alternate specification).\n\n\n\n\n\nCounty enrollment vs. SNAP benefits (alternate specification)."
-  },
-  {
-    "objectID": "index.html#revenue-vs.-safety-net-benefits",
-    "href": "index.html#revenue-vs.-safety-net-benefits",
-    "title": "Medicaid Enrollment & County School Finance",
-    "section": "Revenue vs. Safety Net Benefits",
-    "text": "Revenue vs. Safety Net Benefits\n\n\n\nCounty school revenue by source vs. public assistance medical benefit dollars (log scales).\n\n\n\n\n\nCounty school revenue by source vs. SNAP benefit dollars (log scales)."
+    "text": "Enrollment vs. Safety Net Benefits\n\n\n\nCounty enrollment vs. public assistance medical benefit dollars (log scales).\n\n\n\n\n\nCounty enrollment vs. SNAP benefit dollars (log scales).\n\n\n\n\n\nStudent enrollment vs. Medicaid as a share of tradable income.\n\n\n\n\n\nStudent enrollment vs. SNAP as a share of tradable income."
   }
 ]

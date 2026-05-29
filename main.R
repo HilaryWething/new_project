@@ -50,48 +50,31 @@ cnty_data <- perinc_cnty |>
   inner_join(sdf23_cnty, by = join_by(GeoFIPS == CONUM))
 
 
-rev_long <- cnty_data |>
-  pivot_longer(
-    cols = c(TOTALREV, TFEDREV, TSTREV, TLOCREV),
-    names_to = "rev_type",
-    values_to = "revenue"
-  ) |>
-  mutate(rev_type = recode(rev_type,
-    TOTALREV = "Total revenue",
-    TFEDREV  = "Federal revenue",
-    TSTREV   = "State revenue",
-    TLOCREV  = "Local revenue"
-  ))
-
-ggplot(rev_long, aes(x = revenue, y = pub_asst_med_val_tra_lrt)) +
-  geom_point(alpha = 0.2, size = 1) +
-  geom_smooth(method = "loess", se = TRUE) +
+ggplot(cnty_data, aes(x = MEMBERSCH)) +
+  geom_histogram(bins = 50, fill = "#2c7bb6", color = "white", linewidth = 0.2) +
   scale_x_log10(labels = scales::comma) +
-  scale_y_log10(labels = scales::comma) +
-  facet_wrap(~ rev_type, scales = "free_x") +
+  scale_y_continuous(labels = scales::comma) +
   labs(
-    x = "Revenue (log scale)",
-    y = "Public assistance medical benefits\n(dollars, log scale)",
-    title = "County revenue vs. public assistance medical benefit dollars"
+    x = "Student enrollment (log scale)",
+    y = "Number of counties",
+    title = "Distribution of student enrollment in counties"
   ) +
   theme_minimal()
 
-ggsave("revenue_vs_pub_asst_med_val.png", width = 10, height = 8, dpi = 150)
+ggsave("docs/enrollment_histogram.png", width = 8, height = 5, dpi = 150)
 
-ggplot(rev_long, aes(x = revenue, y = snap_val_tra_lrt)) +
-  geom_point(alpha = 0.2, size = 1) +
-  geom_smooth(method = "loess", se = TRUE) +
-  scale_x_log10(labels = scales::comma) +
-  scale_y_log10(labels = scales::comma) +
-  facet_wrap(~ rev_type, scales = "free_x") +
+ggplot(cnty_data, aes(x = pub_asst_med_val_tra_lrt)) +
+  geom_histogram(bins = 50, fill = "#2c7bb6", color = "white", linewidth = 0.2) +
+  scale_x_log10(labels = scales::dollar_format(scale = 1e-6, suffix = "M")) +
+  scale_y_continuous(labels = scales::comma) +
   labs(
-    x = "Revenue (log scale)",
-    y = "SNAP benefits\n(dollars, log scale)",
-    title = "County revenue vs. SNAP benefit dollars"
+    x = "Medicaid spending (log scale)",
+    y = "Number of counties",
+    title = "Distribution of county-level Medicaid spending"
   ) +
   theme_minimal()
 
-ggsave("revenue_vs_snap_val.png", width = 10, height = 8, dpi = 150)
+ggsave("docs/medicaid_spending_histogram.png", width = 8, height = 5, dpi = 150)
 
 ggplot(cnty_data, aes(x = MEMBERSCH, y = pub_asst_med_val_tra_lrt)) +
   geom_point(alpha = 0.3, size = 1.5) +
@@ -99,13 +82,13 @@ ggplot(cnty_data, aes(x = MEMBERSCH, y = pub_asst_med_val_tra_lrt)) +
   scale_x_log10(labels = scales::comma) +
   scale_y_log10(labels = scales::comma) +
   labs(
-    x = "County enrollment (log scale)",
+    x = "Student enrollment in counties (log scale)",
     y = "Public assistance medical benefits\n(dollars, log scale)",
-    title = "County enrollment vs. public assistance medical benefit dollars"
+    title = "Student enrollment in counties vs. public assistance medical benefit dollars"
   ) +
   theme_minimal()
 
-ggsave("enrollment_vs_pub_asst_med_val.png", width = 8, height = 5, dpi = 150)
+ggsave("docs/enrollment_vs_pub_asst_med_val.png", width = 8, height = 5, dpi = 150)
 
 ggplot(cnty_data, aes(x = MEMBERSCH, y = snap_val_tra_lrt)) +
   geom_point(alpha = 0.3, size = 1.5) +
@@ -113,11 +96,39 @@ ggplot(cnty_data, aes(x = MEMBERSCH, y = snap_val_tra_lrt)) +
   scale_x_log10(labels = scales::comma) +
   scale_y_log10(labels = scales::comma) +
   labs(
-    x = "County enrollment (log scale)",
+    x = "Student enrollment in counties (log scale)",
     y = "SNAP benefits (dollars, log scale)",
-    title = "County enrollment vs. SNAP benefit dollars"
+    title = "Student enrollment in counties vs. SNAP benefit dollars"
   ) +
   theme_minimal()
 
-ggsave("enrollment_vs_snap_val.png", width = 8, height = 5, dpi = 150)
+ggsave("docs/enrollment_vs_snap_val.png", width = 8, height = 5, dpi = 150)
+
+ggplot(cnty_data, aes(x = MEMBERSCH, y = pub_asst_med_pct_val_tra_lrt)) +
+  geom_point(alpha = 0.3, size = 1.5) +
+  geom_smooth(method = "loess", se = TRUE) +
+  scale_x_log10(labels = scales::comma) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Student enrollment in counties (log scale)",
+    y = "Medicaid as share of tradable income (%)",
+    title = "Student enrollment vs. Medicaid share of a county's tradable income"
+  ) +
+  theme_minimal()
+
+ggsave("docs/enrollment_vs_medicaid_pct_tra.png", width = 8, height = 5, dpi = 150)
+
+ggplot(cnty_data, aes(x = MEMBERSCH, y = snap_pct_val_tra_lrt)) +
+  geom_point(alpha = 0.3, size = 1.5) +
+  geom_smooth(method = "loess", se = TRUE) +
+  scale_x_log10(labels = scales::comma) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Student enrollment in counties (log scale)",
+    y = "SNAP as share of tradable income (%)",
+    title = "Student enrollment vs. SNAP share of a county's tradable income"
+  ) +
+  theme_minimal()
+
+ggsave("docs/enrollment_vs_snap_pct_tra.png", width = 8, height = 5, dpi = 150)
 
