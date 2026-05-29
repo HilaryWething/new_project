@@ -3,7 +3,8 @@
     "allow": [
       "Bash(gh repo *)",
       "Bash(quarto --version)",
-      "Bash(quarto render *)"
+      "Bash(quarto render *)",
+      "WebFetch(domain:hilarywething.github.io)"
     ]
   }
 }
