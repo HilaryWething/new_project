@@ -14,7 +14,7 @@ County-level relationships between school district finances and federal safety n
 
 ## Enrollment vs. Safety Net Benefits
 
-![County enrollment vs. public assistance medical benefit dollars (log scales).](enrollment_vs_pub_asst_med_val.png)
+![County enrollment vs. Medicaid dollars (log scales).](enrollment_vs_pub_asst_med_val.png)
 
 ![County enrollment vs. SNAP benefit dollars (log scales).](enrollment_vs_snap_val.png)
 
